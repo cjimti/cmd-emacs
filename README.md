@@ -4,9 +4,8 @@
 
 # Container-as-command: Emacs
 
-I use this for servers with Docker but no emacs. The container works best and
-is most transparent when it mounts the user's home directory. Mounting a home directory requires a lot of
-trust in the container. So who am I? You probably want to build your container and lose the need to trust me on this one; it's up to you. Clone or fork [github.com/cjimti/cmd-emacs](https://github.com/cjimti/cmd-emacs), if you would like to create your own. You can also easily cut-and-paste the [Dockerfile](https://github.com/cjimti/cmd-emacs/blob/master/Dockerfile) into your own.
+I use this for servers with Docker but no emacs. The container works best and is most transparent when it mounts the user's home directory. Mounting a home directory requires a lot of trust in the container. So who am I? You probably want to build your container and lose the need to trust me on this one; it's up to you. Clone or fork [github.com/cjimti/cmd-emacs](https://github.com/cjimti/cmd-emacs), if you would like to create your own. You can also easily cut-and-paste the
+[Dockerfile](https://github.com/cjimti/cmd-emacs/blob/master/Dockerfile) into your own.
 
 
 See the **Build Container** section below to make your own.
@@ -29,7 +28,7 @@ Run emacs:
 emacs
 ```
 
-The files in your current directory are mounted to the path `/src` in the container.
+The files in your current directory mount to the path `/src` in the container.
 
 Open a file in the new emacs/docker command:
 ```bash
