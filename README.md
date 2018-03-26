@@ -1,3 +1,7 @@
+[![Docker Container Image Size](https://shields.beevelop.com/docker/image/image-size/cjimti/emacs/latest.svg)](https://hub.docker.com/r/cjimti/emacs/)
+[![Docker Container Layers](https://shields.beevelop.com/docker/image/layers/cjimti/emacs/latest.svg)](https://hub.docker.com/r/cjimti/emacs/)
+[![Docker Container Pulls](https://img.shields.io/docker/pulls/cjimti/emacs.svg)](https://hub.docker.com/r/cjimti/emacs/)
+
 # Container-as-command: Emacs
 
 I use this for servers with Docker but no emacs. The container works best and
@@ -12,7 +16,7 @@ See the **Build Container** section below to make your own.
 Installing the container-as-command emacs is simply creating an alias
 by adding this line to your .bash_profile or .bashrc:
 ```bash
-alias emacs="docker run --rm -it -v \"$(pwd)\":/src -v \"$HOME\":/root cjimti/emacs"
+alias emacs='docker run --rm -it -v "$PWD":/src -v "$HOME":/root cjimti/emacs'
 ```
 
 Open a new terminal and run:
