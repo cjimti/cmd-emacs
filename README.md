@@ -2,6 +2,10 @@
 [![Docker Container Layers](https://shields.beevelop.com/docker/image/layers/cjimti/emacs/latest.svg)](https://hub.docker.com/r/cjimti/emacs/)
 [![Docker Container Pulls](https://img.shields.io/docker/pulls/cjimti/emacs.svg)](https://hub.docker.com/r/cjimti/emacs/)
 
+# Background
+
+see: [https://mk.imti.co/dont-install-emacs/](https://mk.imti.co/dont-install-emacs/)
+
 # Container-as-command: Emacs
 
 I use this for servers with Docker but no emacs. The container works best and is most transparent when it mounts the user's home directory. Mounting a home directory requires a lot of trust in the container. So who am I? You probably want to build your container and lose the need to trust me on this one; it's up to you. Clone or fork [github.com/cjimti/cmd-emacs](https://github.com/cjimti/cmd-emacs), if you would like to create your own. You can also easily cut-and-paste the
