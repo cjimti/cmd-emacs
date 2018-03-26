@@ -46,14 +46,11 @@ docker run --rm -it -v "$(pwd)":/src --entrypoint sh cjimti/emacs
 
 Change **cjimti** to your own Docker Hub username if you intend to push the container.
 
-Build:
+#### Build:
 ```bash
 docker build -t cjimti/emacs .
 ```
-
-Push:
+#### Push:
 ```bash
 docker push cjimti/emacs
 ```
-
-
