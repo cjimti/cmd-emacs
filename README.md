@@ -5,9 +5,9 @@
 # Container-as-command: Emacs
 
 I use this for servers with Docker but no emacs. The container works best and
-is most transparent when it mounts the user's home directory. This requires a lot of
-trust int the container. So who am I? You probably want to build your container
-and loose the need to trust me on this one, it's up to you.
+is most transparent when it mounts the user's home directory. Mounting a home directory requires a lot of
+trust in the container. So who am I? You probably want to build your container and lose the need to trust me on this one; it's up to you. Clone or fork [github.com/cjimti/cmd-emacs](https://github.com/cjimti/cmd-emacs), if you would like to create your own. You can also easily cut-and-paste the [Dockerfile](https://github.com/cjimti/cmd-emacs/blob/master/Dockerfile) into your own.
+
 
 See the **Build Container** section below to make your own.
 
